@@ -124,7 +124,7 @@ with chart_tab:
 
 with table_tab:
     if top.empty:
-        st.info("Your top words will appear here after you add reviews.")
+        st.info("Your top words will appear here after you add reviews now.")
     else:
         st.dataframe(top, hide_index=True, use_container_width=True)
 
